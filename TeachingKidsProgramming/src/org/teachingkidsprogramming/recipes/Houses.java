@@ -19,12 +19,44 @@ public class Houses
   {
     Tortoise.setPenColor(Colors.Grays.LightGray);
     Tortoise.move(height);
+    //flatRoof();
+    //amittaisRoof();
+    //maverichsRoof
+    //turn left 90
+    Tortoise.turn(-90);
+    //move 5
+    Tortoise.move(5);
+    //turn right 90+45
+    Tortoise.turn(90 + 45);
+    //move 50
+    Tortoise.move(50);
+    //turn left 90
     Tortoise.turn(90);
-    Tortoise.move(30);
-    Tortoise.turn(90);
+    //move 50
+    Tortoise.move(50);
+    //turn 90+45
+    Tortoise.turn(90 + 45);
+    //move 5
+    Tortoise.move(5);
+    //turn 90 left
+    Tortoise.turn(-90);
     Tortoise.move(height);
     Tortoise.turn(-90);
     Tortoise.move(20);
     Tortoise.turn(-90);
+  }
+  private static void amittaisRoof()
+  {
+    Tortoise.turn(45);
+    Tortoise.move(10);
+    Tortoise.turn(90);
+    Tortoise.move(10);
+    Tortoise.turn(45);
+  }
+  private static void flatRoof()
+  {
+    Tortoise.turn(90);
+    Tortoise.move(30);
+    Tortoise.turn(90);
   }
 }
