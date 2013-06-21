@@ -1,5 +1,7 @@
 package org.teachingkidsprogramming.recipes;
 
+import org.teachingextensions.logo.Tortoise;
+
 public class PentagonCrazy
 {
   public static void main(String[] args)
@@ -25,6 +27,7 @@ public class PentagonCrazy
     //        ------------- End of adjustPen recipe 
     //        Move the tortoise the length of a side --#4
     //        Turn the tortoise 1/5th of 360 degrees --#1
+    Tortoise.turn(360 / 5);
     //        Turn the tortoise 1 more degree --#5
     //    Repeat
     //    ------------- End of drawPentagon recipe
