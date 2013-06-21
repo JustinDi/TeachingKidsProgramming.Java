@@ -20,7 +20,6 @@ public class PentagonCrazy
     //        ------------- Recipe for adjustPen --#9
     Tortoise.setPenColor(ColorWheel.getNextColor());
     //        Increase the tortoises pen width by 1 --#15          
-    Tortoise.setPenWidth(+1);
     //        If the tortoises pen width is greater than 4, then --#17
     //            Reset it to 1 --#16
     //        ------------- End of adjustPen recipe 
