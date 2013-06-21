@@ -28,10 +28,6 @@ public class DigiFlower
     ColorWheel.addColor(Oranges.DarkOrange);
     ColorWheel.addColor(Yellows.Gold);
     ColorWheel.addColor(Yellows.Yellow);
-    ColorWheel.addColor(Reds.Red);
-    ColorWheel.addColor(Oranges.DarkOrange);
-    ColorWheel.addColor(Yellows.Gold);
-    ColorWheel.addColor(Yellows.Yellow);
     ColorWheel.addColor(Yellows.Yellow);
     ColorWheel.addColor(Yellows.Gold);
     ColorWheel.addColor(Oranges.DarkOrange);
