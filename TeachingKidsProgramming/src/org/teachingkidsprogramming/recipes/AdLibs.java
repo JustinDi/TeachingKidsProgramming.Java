@@ -1,6 +1,5 @@
 package org.teachingkidsprogramming.recipes;
 
-
 public class AdLibs
 {
   public static void main(String[] args)
