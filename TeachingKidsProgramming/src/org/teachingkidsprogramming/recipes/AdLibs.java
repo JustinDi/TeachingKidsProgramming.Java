@@ -12,7 +12,7 @@ public class AdLibs
     words.adverb = MessageBox.askForTextInput("Please enter one adverb");
     words.edverb = MessageBox.askForTextInput("Please enter one verb ending in -ed");
     words.currentBodyPart = MessageBox.askForTextInput("Please enter one body part");
-    String story = Parser.parse("Today I woke {adverb}. Then I {edverb} my {currentBodyPart}.", words);
+    String story = Parser.parseRtfFile("view.rtf", words);
     //MessageBox.showMessage(story);
     Viewer.displayRtfFile(story);
   }
